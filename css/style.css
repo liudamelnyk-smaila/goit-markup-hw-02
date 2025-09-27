@@ -10,13 +10,32 @@
     font-family: "Raleway", sans-serif;
     font-size: 18px; 
     line-height: 21px;
-    font-weight: 496;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.accent {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
 }
 
 .nav-a { 
+    color: #2E2F42;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    font-weight: bold;
-}
+    }
 
 .nav a,
 .contacts a {
@@ -24,9 +43,7 @@
     color: #2E2F42;
 }
 
-.accent{
-    color: #4D5AE5;
-}
+
 
 .contacts{
     font-family: "Roboto", sans-serif;
@@ -86,14 +103,14 @@ h3{
 } 
 
 .footer {
-    color:#F4F4FD;
+    color: #4D5AE5;
     background-color: #2E2F42;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: bold;
 }
 .footer-accent{
-    color: #4D5AE5;
+    color:#F4F4FD;
 }   
 
 .footer a{
