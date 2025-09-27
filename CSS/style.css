@@ -26,7 +26,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 24px;
-    font-weight: regular;  
+    font-weight: normal; 
     font-style: normal; 
 }
 
@@ -66,7 +66,6 @@ h2 {
 h3{
     color: #2E2F42;
     font-family: "Roboto", sans-serif;
-    font-style: medium;
     font-size: 20px;
     font-weight: bold;
 }
@@ -80,8 +79,7 @@ h3{
 } 
 
 .footer {
-    text-transform: uppercase;
-    color: #F4F4FD;
+    color:#F4F4FD;
     background-color: #2E2F42;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -93,11 +91,10 @@ h3{
 
 .footer a{
     text-decoration: none;
+    text-transform: uppercase;
 }
 .footer p{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    color: #F4F4FD;
-    font-style: regular;
-    font-weight: bold;
+    font-weight: normal;
 }
