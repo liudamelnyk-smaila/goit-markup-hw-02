@@ -1,16 +1,21 @@
 /* CSS Document */
+
 .nav{
-    color: #2E2F42;
     font-family: "Raleway", sans-serif;
     font-size: 18px; 
     line-height: 21px;
-    text-decoration: none;
+    font-weight: 496;
 }
 
-.nav-a{ 
+.nav-a { 
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.nav a,
+.contacts a {
     text-decoration: none;
+    color: #2E2F42
 }
 
 .accent{
@@ -18,50 +23,21 @@
 }
 
 .contacts{
-    color: #2E2F42;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 24px;
-    font-weight: regular;
-    text-decoration: none;
+    font-weight: regular;  
+    font-style: normal; 
 }
-
-.contacts-tel{
-    font-weight: medium;
-    text-shadow: 0px 4px 4px #000000;
-    text-decoration: none;
-}
-
-
 
  .page-nav, .contacts, .about-us, .team,  .portfolio {
     list-style-type: none;
-    text-decoration: none;
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .main-section {
     background-color: #2E2F42;
 }
 
-link{
-    color: #2E2F42;
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    line-height: 21px;
-}
 h1 {
     color: #E5E5E5;
     line-height: 60px;
@@ -78,4 +54,50 @@ button {
     color: #FFFFFF;
     text-align: center;
 }
-web #4D5AE5
+
+h2 {
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h3{
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-style: medium;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-us p, 
+.team p, 
+.portfolio p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #434455;
+} 
+
+.footer {
+    text-transform: uppercase;
+    color: #F4F4FD;
+    background-color: #2E2F42;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer-accent{
+    color: #4D5AE5;
+}   
+
+.footer a{
+    text-decoration: none;
+}
+.footer p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #F4F4FD;
+    font-style: regular;
+    font-weight: bold;
+}
