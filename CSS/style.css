@@ -1,14 +1,20 @@
 .main-section {
     background-color: #2E2F42;
-    
 }
+
 h1 {
     color: #E5E5E5;
     line-height: 60px;
-font-size: 56px;
+    font-size: 56px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 button {
     background-color: #4D5AE5;
-    color: #FFFFFF
+    color: #FFFFFF;
+    text-align: center;
 }
