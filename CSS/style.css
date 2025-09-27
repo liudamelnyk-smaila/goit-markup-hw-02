@@ -2,22 +2,66 @@
 .nav{
     color: #2E2F42;
     font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    text-decoration: none;   
-   
+    font-size: 18px; 
+    line-height: 21px;
+    text-decoration: none;
 }
+
 .nav-a{ 
     text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
 }
+
 .accent{
     color: #4D5AE5;
 }
+
+.contacts{
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: regular;
+    text-decoration: none;
+}
+
+.contacts-tel{
+    font-weight: medium;
+    text-shadow: 0px 4px 4px #000000;
+    text-decoration: none;
+}
+
+
+
+ .page-nav, .contacts, .about-us, .team,  .portfolio {
+    list-style-type: none;
+    text-decoration: none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .main-section {
     background-color: #2E2F42;
 }
 
+link{
+    color: #2E2F42;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+}
 h1 {
     color: #E5E5E5;
     line-height: 60px;
