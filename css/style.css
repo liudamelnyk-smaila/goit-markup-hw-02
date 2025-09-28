@@ -26,7 +26,7 @@
     color: #4D5AE5;
 }
 
-.nav-a { 
+.nav-title { 
     color: #2E2F42;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -121,4 +121,5 @@ h3{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: normal;
+    color: #F4F4FD;
 }
