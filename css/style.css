@@ -154,6 +154,9 @@ h3{
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: bold;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
 }
 .footer-accent{
     color:#F4F4FD;
@@ -168,4 +171,6 @@ h3{
     font-size: 16px;
     font-weight: normal;
     color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
