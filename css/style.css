@@ -47,7 +47,9 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color:#434455;
 }
+
 .nav a,
 .contacts a {
     text-decoration: none;
@@ -88,21 +90,33 @@
     background-color: #2E2F42;
 }
 
-h1 {
-    color: #E5E5E5;
+.main-section-title {
+    color: #ffffff;
     line-height: 60px;
     font-size: 56px;
     text-align: center;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
     font-style: normal;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     font-variation-settings: "wdth" 100;
 }
 
-button {
+.button {
     background-color: #4D5AE5;
-    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
     text-align: center;
+}
+
+.main-section .button:hover,
+.main-section .button:focus {
+    background-color: #404BBF;
     cursor: pointer;
 }
 
@@ -119,14 +133,20 @@ h3{
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: bold;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .about-us p, 
 .team p, 
-.portfolio p{
+.portfolio-title p{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 } 
 
 .footer {
