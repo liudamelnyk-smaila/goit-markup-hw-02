@@ -2,7 +2,7 @@
 
 .body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
+    
     background-color: #FFFFFF;
 }
 
@@ -15,19 +15,8 @@
     letter-spacing: 0.03em;
 }
 
-.accent {
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    line-height: 21px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-}
-
 .nav-title { 
-    color: #2E2F42;
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     line-height: 21px;
@@ -36,7 +25,28 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     }
+        .accent {
+            color: #2E2F42;
+            font-family: "Raleway", sans-serif;
+            font-size: 18px;
+            line-height: 21px;
+            font-weight: 700;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        }
+.nav-list .link:hover,
+.nav-list .link:focus {
+    color: #404bbf;
+}
 
+
+.nav-list-item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 .nav a,
 .contacts a {
     text-decoration: none;
@@ -50,10 +60,10 @@
     font-size: 16px;
     line-height: 24px;
     font-weight: normal; 
-    font-style: normal; 
+    font-style: normal;
 }
 
- .page-nav, .contacts, .about-us, .team,  .portfolio {
+ .nav-list,  .contacts, .about-us, .team,  .portfolio {
     list-style-type: none;
  }
 
