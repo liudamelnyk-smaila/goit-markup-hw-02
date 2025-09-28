@@ -2,7 +2,7 @@
 
 .body {
     font-family: "Roboto", sans-serif;
-    
+    color: #434455;
     background-color: #FFFFFF;
 }
 
@@ -13,6 +13,7 @@
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    COLOR: #4d5ae5;
 }
 
 .nav-title { 
@@ -41,7 +42,7 @@
 }
 
 
-.nav-list-item{
+.nav-list .link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -53,15 +54,21 @@
     color: #2E2F42;
 }
 
-
-
 .contacts{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: normal; 
     font-style: normal;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: #404bbf;
+}
+
 
  .nav-list,  .contacts, .about-us, .team,  .portfolio {
     list-style-type: none;
