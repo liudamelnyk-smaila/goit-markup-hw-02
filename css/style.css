@@ -52,8 +52,8 @@
 .contacts a {
     text-decoration: none;
     color: #2E2F42;
+    font-style: normal
 }
-
 .contacts{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -64,13 +64,23 @@
     color: #434455;
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
+.contacts-list{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal; 
+    font-style: normal;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacts-list .link:hover,
+.contacts-list .link:focus {
     color: #404bbf;
 }
 
 
- .nav-list,  .contacts, .about-us, .team,  .portfolio {
+ .nav-list,  .contacts-list, .about-us, .team,  .portfolio {
     list-style-type: none;
  }
 
