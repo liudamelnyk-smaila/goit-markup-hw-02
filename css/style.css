@@ -56,22 +56,28 @@
     font-style: normal
 }
 
-.contacts-list, .contacts-link {
+.contact {
+    font-style: normal;
+}
+
+.contact-link {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: normal; 
     font-style: normal;
+    color: #434455;
     letter-spacing: 0.02em;
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: #404bbf;
 }
 
 
- .nav-list,  .contacts-list, .about-us, .team-title,  .portfolio-title {
+ .nav-list,  .contact-list, 
+ .about-us, .team-title,  .portfolio-title {
     list-style-type: none;
  }
 
