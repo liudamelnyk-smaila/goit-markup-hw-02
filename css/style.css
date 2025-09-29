@@ -118,6 +118,10 @@
     cursor: pointer;
 }
 
+.team{
+    background-color: #F4F4FD;
+}
+
 .name {
     color: #2E2F42;
     font-family: "Roboto", sans-serif;
