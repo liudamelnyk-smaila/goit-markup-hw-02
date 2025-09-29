@@ -189,11 +189,12 @@ font-family: "Roboto", sans-serif;
     color:#F4F4FD;
 }   
 
-.footer a{
+.footer-logo{
+    color:#4d5ae5;
     text-decoration: none;
     text-transform: uppercase;
 }
-.footer p{
+.footer-text {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: normal;
