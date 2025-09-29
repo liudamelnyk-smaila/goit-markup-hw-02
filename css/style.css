@@ -110,6 +110,7 @@
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
+    letter-spacing: 0.04em;
 }
 
 .main-section .main-box:hover,
@@ -128,7 +129,16 @@
     font-style: normal;
     font-size: 36px;
     font-weight: bold;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
+
+.team-list{
+background-color: #FFFFFF
+}
+
 
 .name-next {
     color: #2E2F42;
@@ -157,6 +167,14 @@ font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
 } 
 
+.portfolio{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 .footer {
     color: #4D5AE5;
     background-color: #2E2F42;
