@@ -75,8 +75,8 @@
     color: #434455;
 }
 
-.contacts-list .link:hover,
-.contacts-list .link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: #404bbf;
 }
 
